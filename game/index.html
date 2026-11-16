@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sporehold — defend the last glowing grove</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #08130d; }
+  body { display: flex; align-items: center; justify-content: center; }
+  canvas {
+    width: min(100vw, 177.78vh);
+    height: min(100vh, 56.25vw);
+    display: block;
+    cursor: crosshair;
+  }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="720"></canvas>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
